@@ -2,7 +2,7 @@ function rangeOfNumbers(startN, endN){
     if (startN > endN) {
         return "The starting number will always be less than or equal to the ending number";
     }
-    if (endN === startN) {
+    else if (endN === startN) {
     return [startN];
     } else {
         var countArray = rangeOfNumbers(startN, endN - 1);
