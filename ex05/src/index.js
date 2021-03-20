@@ -11,7 +11,7 @@ var myPetsArray = [
         animalType: "Bird",
         name: "Tweety"
     },
-]
+];
 function myPetsFunction(pets){
     return pets[pets.indexOf(animal2)].name;
 }
